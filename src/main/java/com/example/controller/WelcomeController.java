@@ -31,7 +31,7 @@ public class WelcomeController {
 		return x;
 	}
 	
-	@RequestMapping(value = "/welcomeDataForm", method = RequestMethod.GET)
+	@GetMapping("/welcomeDataForm")
 	public ModelAndView wish3()
 	{
 		ModelAndView x = new ModelAndView("WelcomeData");
